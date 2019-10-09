@@ -1,0 +1,12 @@
+<div class="container">
+<form (ngSubmit)='addEd()'>
+    <label>Degree</label>
+    <input type="text" placeholder="Degree" [(ngModel)]='e.Degree' name="Degree"><br/>
+    <label>Marks</label>
+    <input type="text" placeholder="Marks" [(ngModel)]='e.Marks' name="Marks"><br/>
+    <label>Stream</label>
+    <input type="text" placeholder="Stream" [(ngModel)]='e.Stream' name="Stream"><br/>
+    <label>College</label>
+    <input type="text" placeholder="College" [(ngModel)]='e.College' name="College"><br/>
+    <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+</form></div>
