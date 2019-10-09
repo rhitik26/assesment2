@@ -41,7 +41,10 @@ export class ViewComponent implements OnInit {
     this.ed=false;
   }
   myinput;
-  
+  u2=false;
+  u3(){
+    this.u2=true;
+  }
   ngOnInit() {
   }
 
